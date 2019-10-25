@@ -26,8 +26,7 @@ namespace CompanyNews.Droid
             base.OnCreate(savedInstanceState);
 
             // APPCENTER
-            AppCenter.Start("395ee670-696a-42c1-8179-81da722f8e8e",
-                   typeof(Analytics), typeof(Crashes), typeof(Push), typeof(Distribute));
+            AppCenter.Start("395ee670-696a-42c1-8179-81da722f8e8e", typeof(Analytics), typeof(Crashes), typeof(Push), typeof(Distribute));
 
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: true);
             FFImageLoading.Forms.Platform.CachedImageRenderer.InitImageViewHandler();
