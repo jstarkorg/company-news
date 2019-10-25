@@ -17,7 +17,6 @@ namespace CompanyNews
         public MainPage()
         {
             InitializeComponent();
-
             NewsItems = new List<NewsItem>();
 
             NewsItems.Add(new NewsItem
